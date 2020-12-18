@@ -15,7 +15,6 @@ int obsticle_counter = 0;
 float ballposition[100][3];           //in format (x, y,0 = tennis 1 = table tennis)
 float currentposition[1][2] = {[1, 1]}; //in format (x,y)
 int ballcounter = 0;
-int threshold_for_colour_detection = 10;
 
 extern uint64_t iter; //  This variable keeps track of how many times loop() was run.
                       //  Feel free to use it.
